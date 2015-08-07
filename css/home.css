@@ -1,0 +1,31 @@
+#destaques { position:absolute !important; top:0; left:0; width:100% !important; height:795px !important; z-index:777 !important; }
+#destaques div { width:100% !important; height:890px !important; z-index:777 !important; background-size:100% auto !important }
+
+#ilustras { position:absolute!important; top:0; left:0; width:930px !important; height:660px !important; z-index:888 !important; margin-left: 50px !important;}
+#ilustras div { width:930px !important; height:660px !important; z-index:888 !important; }
+
+#textos { position:absolute!important; top:0; left:0; width:930px !important; height:660px !important; z-index:999 !important; }
+#textos .slide { width:930px !important; height:540px !important; z-index:999 !important; padding-top:120px !important; }
+
+#textos p { line-height: 115%; color: #272a2f; font-size: 22px; font-family: 'Open Sans', sans-serif; width: 367px; }
+#textos p strong { margin: 20px 0; line-height: 80%; display: block; color: #fff; font-size: 81px; font-family: 'nexa_boldregular'; }
+#textos .case {margin-top:70px; padding-top:30px; background:url(../img/traco_preto.gif) top left no-repeat; color:#d1d1d1; font-size:18px;font-family: 'Roboto', sans-serif; width:300px}
+#textos .case span {display:block; font-style:italic; color:#fff; font-size:14px}
+#textos .ver { position:relative; background:url(../img/veja.png) top left; width:70px; height:27px; cursor:pointer; margin:20px 0; display:block }
+#textos .ver:hover {background-position:bottom left}
+
+.nav-slides {position:absolute; width:61px; background:url(../img/nav-slides.png); height:145px; top:295px; cursor:pointer; z-index:8888}
+#next {right:80px; background-position:top right;}
+#prev {left:80px; background-position:top left;}
+
+.nav {width:108px; margin:20px auto; position:relative; height:50px; z-index:9999; top:680px}
+.nav a {display:block; width:29px; height:29px; margin:5px; position:absolute;}
+.nav a.main {background:url(../img/marcador_padrao.png) center no-repeat}
+.nav a.main.activeSlide {background:url(../img/marcador_selecionado.png) center no-repeat}
+
+.nav .service0 {top:0; left:0;}
+.nav .service1 {top:0; left:34px;}
+.nav .service2 {top:0; left:68px} 
+
+
+.home {height:795px; position:relative; float:left; width:100%}
